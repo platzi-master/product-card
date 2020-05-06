@@ -117,3 +117,33 @@ body {
   cursor: pointer;
 }
 
+@media (max-width: 1080px) {
+  .container {
+    height: auto;
+  }
+
+  .container .imgBox {
+    height: auto;
+    padding: 40px;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+  .container .imgBox img {
+    left: initial;
+    max-width: 100%;
+    transform: rotate(0deg);
+  }
+
+  .container .details {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+}
+
+  .container .details p {
+      max-width: 100%;
+      margin-left: 0;
+  }
+}
